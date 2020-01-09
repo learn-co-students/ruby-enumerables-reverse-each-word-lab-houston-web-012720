@@ -7,7 +7,7 @@ def reverse_each_word (string)
   #oh I am supposed to do it with collect
   #reversed_string_array = string_array.map {|x| x.reverse}
   #reversed_string = reversed_string_array.join(" ")
-  #puts reversed_string
+  #reversed_string
   
   reversed_string_array = string_array.collect {|x| x.reverse}
   reversed_string = reversed_string_array.join(" ")
